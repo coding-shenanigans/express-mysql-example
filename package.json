@@ -1,0 +1,21 @@
+{
+  "name": "express-mysql-example",
+  "version": "1.0.0",
+  "description": "This repository provides a basic example of an Express.js app that connects to a MySQL database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
